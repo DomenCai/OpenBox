@@ -1,13 +1,13 @@
-#Android应用Preference
+# Android应用Preference
 
-###一、前言
+### 一、前言
 本文主要给大家讲述下本人使用Preference的经验和体会。为了使短信项目和系统之间的耦合度更低，使用简单，达到代码可读性更好，又要达到策划的需求，根据以上原因选择了Preference组件。
 
 
 
-###二、Preference介绍
+### 二、Preference介绍
 
-####1、了解Preference组件基础知识
+#### 1、了解Preference组件基础知识
 
 Preference布局采用Preference组件以及继承Preference的组件，比如EditTextPreference等，不像普通的Activity用layout来做自己的界面，它是用专属的xml/preference.xml来构建自己的界面，然后在类中加入此xml。在布局之前先介绍几个Preference组件。
 
